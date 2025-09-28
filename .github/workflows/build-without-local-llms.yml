@@ -9,8 +9,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  # Esto crea un nombre de imagen que incluye el nombre de la rama
-  IMAGE_NAME: ${{ github.repository }}_${{ github.ref_name }}_nolocal
+  IMAGE_NAME: ${{ github.repository }}_nolocal
 
 jobs:
   build-and-push-image:
@@ -23,7 +22,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Solo loguea en el registry y sube si es 'main'
       - name: Log in to the Container registry
+        if: github.ref_name == 'main'
         uses: docker/login-action@v2
         with:
           registry: ${{ env.REGISTRY }}
@@ -36,11 +37,12 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
 
-      - name: Build and push Docker image
+      # Compila SIEMPRE, pero solo pushea si la rama es main
+      - name: Build and [optionally] push Docker image
         uses: docker/build-push-action@v4
         with:
           context: .
-          push: true
+          push: ${{ github.ref_name == 'main' }}
           file: docs/GithubAction+NoLocal
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
