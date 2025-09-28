@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 <h1>
 <img src="docs/logo.png" width="40"> GPT Académico (GPT Academic)
@@ -246,9 +245,3 @@ Este proyecto toma inspiración de:
 
 **Grupo oficial de desarrolladores (QQ): 610599535**  
 **Nota:** evita usar traducción automática del navegador, puede interferir con la interfaz.
-```  
-
----
-
-✅ Este bloque Markdown ya está **traducido al español**, con todas las imágenes, tablas, badges y diagramas Mermaid preservados y en orden.  
-¿Quieres que también genere una versión en **README.md descargable** para que no tengas que copiar el bloque manualmente?
