@@ -3,12 +3,7 @@
 <img src="docs/logo.png" width="40"> GPT Académico (GPT Academic)
 </h1>
 
-[![Github][Github-image]][Github-url]  
-[![License][License-image]][License-url]  
-[![Releases][Releases-image]][Releases-url]  
-[![Installation][Installation-image]][Installation-url]  
-[![Wiki][Wiki-image]][Wiki-url]  
-[![PR][PRs-image]][PRs-url]  
+[![Github][Github-image]][Github-url] [![License][License-image]][License-url] [![Releases][Releases-image]][Releases-url] [![Installation][Installation-image]][Installation-url] [![Wiki][Wiki-image]][Wiki-url] [![PR][PRs-image]][PRs-url]  
 
 [Github-image]: https://img.shields.io/badge/github-12100E.svg?style=flat-square  
 [License-image]: https://img.shields.io/github/license/Frankcav/gpt_cientifico?label=License&style=flat-square&color=orange  
