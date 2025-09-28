@@ -11,18 +11,18 @@
 [![PR][PRs-image]][PRs-url]  
 
 [Github-image]: https://img.shields.io/badge/github-12100E.svg?style=flat-square  
-[License-image]: https://img.shields.io/github/license/Frankcav/gpt_academic?label=License&style=flat-square&color=orange  
-[Releases-image]: https://img.shields.io/github/release/Frankcav/gpt_academic?label=Release&style=flat-square&color=blue  
-[Installation-image]: https://img.shields.io/badge/dynamic/json?color=blue&url=https://raw.githubusercontent.com/Frankcav/gpt_academic/master/version&query=$.version&label=Installation&style=flat-square  
+[License-image]: https://img.shields.io/github/license/Frankcav/gpt_cientifico?label=License&style=flat-square&color=orange  
+[Releases-image]: https://img.shields.io/github/release/Frankcav/gpt_cientifico?label=Release&style=flat-square&color=blue  
+[Installation-image]: https://img.shields.io/badge/dynamic/json?color=blue&url=https://raw.githubusercontent.com/Frankcav/gpt_cientifico/master/version&query=$.version&label=Installation&style=flat-square  
 [Wiki-image]: https://img.shields.io/badge/wiki-Documentación-black?style=flat-square  
 [PRs-image]: https://img.shields.io/badge/PRs-welcome-pink?style=flat-square  
 
-[Github-url]: https://github.com/Frankcav/gpt_academic  
-[License-url]: https://github.com/Frankcav/gpt_academic/blob/master/LICENSE  
-[Releases-url]: https://github.com/Frankcav/gpt_academic/releases  
-[Installation-url]: https://github.com/Frankcav/gpt_academic#installation  
-[Wiki-url]: https://github.com/Frankcav/gpt_academic/wiki  
-[PRs-url]: https://github.com/Frankcav/gpt_academic/pulls  
+[Github-url]: https://github.com/Frankcav/gpt_cientifico  
+[License-url]: https://github.com/Frankcav/gpt_cientifico/blob/master/LICENSE  
+[Releases-url]: https://github.com/Frankcav/gpt_cientifico/releases  
+[Installation-url]: https://github.com/Frankcav/gpt_cientifico#Instalación  
+[Wiki-url]: https://github.com/Frankcav/gpt_cientifico/wiki  
+[PRs-url]: https://github.com/Frankcav/gpt_cientifico/pulls  
 </div>  
 
 ---
@@ -32,7 +32,7 @@
 Traducciones disponibles: **[English](docs/README.English.md) | [日本語](docs/README.Japanese.md) | [한국어](docs/README.Korean.md) | [Русский](docs/README.Russian.md) | [Français](docs/README.French.md)**  
 
 > [!NOTE]  
-> 1. La explicación detallada de cada archivo está en el [informe de autoanálisis](https://github.com/Frankcav/gpt_academic/wiki/GPT‐Academic项目自译解报告) `self_analysis.md`. Puedes regenerarlo siempre que quieras.  
+> 1. La explicación detallada de cada archivo está en el [informe de autoanálisis](https://github.com/Frankcav/gpt_cientifico/wiki/GPT‐Academic项目自译解报告) `self_analysis.md`. Puedes regenerarlo siempre que quieras.  
 > 2. El proyecto es compatible con modelos chinos como **Qwen (通义千问)** y **ChatGLM**, soportando múltiples API Keys en simultáneo.  
 
 ---
@@ -43,10 +43,10 @@ Traducciones disponibles: **[English](docs/README.English.md) | [日本語](docs
 
 Funcionalidad (⭐ = nuevo) | Descripción  
 --- | ---  
-⭐ [Integración de nuevos modelos](https://github.com/Frankcav/gpt_academic/wiki/%E5%A6%82%E4%BD%95%E5%88%87%E6%8D%A2%E6%A8%A1%E5%9E%8B) | Compatibilidad con **Baidu Wenxin**, **Qwen**, **InternLM**, **Spark**, **LLaMA2**, **GLM4**, **DALL·E 3**, **DeepseekCoder**, etc.  
+⭐ [Integración de nuevos modelos](https://github.com/Frankcav/gpt_cientifico/wiki/%E5%A6%82%E4%BD%95%E5%88%87%E6%8D%A2%E6%A8%A1%E5%9E%8B) | Compatibilidad con **Baidu Wenxin**, **Qwen**, **InternLM**, **Spark**, **LLaMA2**, **GLM4**, **DALL·E 3**, **DeepseekCoder**, etc.  
 ⭐ Soporte para rendering Mermaid | Creación de diagramas de flujo, Gantt, GitGraph, etc. (versión 3.7).  
 ⭐ Traducción académica Arxiv/PDF | Plugin [con traducción de alta calidad para papers](https://www.bilibili.com/video/BV1dz4y1v77A/).  
-⭐ Entrada de voz en tiempo real | [Plugin de audio](https://github.com/Frankcav/gpt_academic/blob/master/docs/use_audio.md) que escucha asincrónicamente y responde con contexto.  
+⭐ Entrada de voz en tiempo real | [Plugin de audio](https://github.com/Frankcav/gpt_cientifico/blob/master/docs/use_audio.md) que escucha asincrónicamente y responde con contexto.  
 ⭐ Terminal virtual | Invoca funciones usando lenguaje natural para controlar plugins.  
 Traducción y corrección de papers | Similar a Grammarly, con soporte para LaTeX.  
 [Atajos personalizados](https://www.bilibili.com/video/BV14s4y1E7jN) | Define atajos propios en la interfaz.  
@@ -68,7 +68,7 @@ Arxiv Assistant | Ingresa una URL y traduce resumen+descarga PDF automáticament
 </div>  
 
 <div align="center">  
-<img src="https://github.com/Frankcav/gpt_academic/assets/96192199/70ff1ec5-e589-4561-a29e-b831079b37fb.gif" width="700" >  
+<img src="https://github.com/Frankcav/gpt_cientifico/assets/96192199/70ff1ec5-e589-4561-a29e-b831079b37fb.gif" width="700" >  
 </div>  
 
 Ejemplos:  
@@ -105,8 +105,8 @@ flowchart TD
 ### Instalación I: Ejecución directa
 
 ```sh
-git clone --depth=1 https://github.com/Frankcav/gpt_academic.git
-cd gpt_academic
+git clone --depth=1 https://github.com/Frankcav/gpt_cientifico.git
+cd gpt_cientifico
 ```
 
 Configura tu `API_KEY` en `config_private.py` y luego instala dependencias:  
@@ -139,7 +139,7 @@ docker-compose up
 
 ### Instalación III: Otros métodos
 
-- Script **One‑click** en Windows desde [Releases](https://github.com/Frankcav/gpt_academic/releases).  
+- Script **One‑click** en Windows desde [Releases](https://github.com/Frankcav/gpt_cientifico/releases).  
 - Uso con HuggingFace, Sealos o WSL2.  
 
 ---
@@ -220,7 +220,7 @@ Ejemplo: `Chuanhu-Small-and-Beautiful`.
 > - **2025.2.2**: Tutorial “Conéctate en 3 minutos al modelo Qwen2.5‑max” [video](https://www.bilibili.com/video/BV1LeFuerEG4).  
 > - **2025.2.1**: Soporte para fuentes personalizadas.  
 > - **2024.10.10**: Tras un apagón, se restauró de emergencia el servidor de archivos con los [paquetes .whl](https://drive.google.com/drive/folders/14kR-3V-lIbvGxri4AHc8TpiA1fqsw7SK?usp=sharing).  
-> - **2024.5.1**: Nueva función **Doc2x** para traducir artículos académicos en PDF. [Ver detalles](https://github.com/Frankcav/gpt_academic/wiki/Doc2x).  
+> - **2024.5.1**: Nueva función **Doc2x** para traducir artículos académicos en PDF. [Ver detalles](https://github.com/Frankcav/gpt_cientifico/wiki/Doc2x).  
 > - **2024.3.11**: Soporte completo para **Qwen, GLM, DeepseekCoder** y módulo de clonación de voz **SoVits**. [Ver más](https://www.bilibili.com/video/BV1Rp421S7tF/).  
 > - **2024.1.17**: Al instalar dependencias, usa siempre las versiones exactas de `requirements.txt`.  
 >   Comando: `pip install -r requirements.txt`  
