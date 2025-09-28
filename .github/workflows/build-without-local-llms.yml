@@ -1,14 +1,16 @@
-# https://docs.github.com/en/actions/publishing-packages/publishing-docker-images#publishing-images-to-github-packages
 name: build-without-local-llms
 
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
+      - 'develop'
+  workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}_nolocal
+  # Esto crea un nombre de imagen que incluye el nombre de la rama
+  IMAGE_NAME: ${{ github.repository }}_${{ github.ref_name }}_nolocal
 
 jobs:
   build-and-push-image:
